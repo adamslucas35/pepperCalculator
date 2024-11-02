@@ -69,8 +69,8 @@ class Deal:
             'sale_proceeds': sale_proceeds, 
             'pepper_value': pepper_value, 
             'immediate_profit': immediate_profit, 
-            'total_profit_100': pepper_personal_use, 
-            'total_profit_915': pepper_best_buy, 
+            'total_profit_100': pepper_100, 
+            'total_profit_915': pepper_915, 
             'roi_100': (pepper_100 / purchase_cost * 100),
             'roi_915': (pepper_915 / purchase_cost * 100),
             'effective_buyer_rate': effective_buyer_rate * 100
